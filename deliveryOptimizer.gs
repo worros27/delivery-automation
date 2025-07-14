@@ -5,7 +5,7 @@ function GETCOMPANYADDRESS(name) {
   const cached = cache.get(cacheKey);
   if (cached) return cached;
 
-  const API_KEY = 'AIzaSyCKCeG9dezl6fnhUlCuS6MIW2pwvjC45ys';
+  const API_KEY = ;
   const query = name + ', Los Angeles';
 
   let url = [
@@ -52,7 +52,7 @@ function autoFillDeliveryFields() {
 // ─────────────────────────────────────────
 // CONFIGURATION – 修改为你的配置 / Change these to your own
 // ─────────────────────────────────────────
-const API_KEY       = 'AIzaSyCKCeG9dezl6fnhUlCuS6MIW2pwvjC45ys';  // 你的 Google Maps API Key，用于调用 Geocoding 和 Directions API
+const API_KEY       = '';  // 你的 Google Maps API Key，用于调用 Geocoding 和 Directions API
 const WAREHOUSE     = '3171 E 12th St, Los Angeles, CA 90023';    // 仓库地址，所有路线从此出发并回到此地
 const ADDRESS_RANGE = 'C2:C';                                   // 供应商地址范围，A1 形式，从 C2 一直到该列最后
 const OUTPUT_COL    = 9;                                        // 将访问顺序写入第 9 列 (I 列)
